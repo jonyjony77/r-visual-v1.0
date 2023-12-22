@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rage__bgConfig>
+	<glassTypes> 
+	<!-- Do not rename or reorder glass types unless you intend to re-export all glass frags!-->
+		<Item>
+			<glassType>Pane</glassType>
+			<glassSizes>
+				<Item><glassSize>0x0</glassSize></Item>
+				<Item><glassSize>1x1</glassSize></Item>
+				<Item><glassSize>2x2</glassSize></Item>
+				<Item><glassSize>3x3</glassSize></Item>
+			</glassSizes>
+		</Item>
+		<Item>
+			<glassType>Security</glassType>
+			<glassSizes>
+				<Item><glassSize>0x0</glassSize></Item>
+			</glassSizes>
+		</Item>
+		<Item>
+			<glassType>Pane_Weak</glassType>
+			<glassSizes>
+				<Item><glassSize>0x0</glassSize></Item>
+				<Item><glassSize>1x1</glassSize></Item>
+				<Item><glassSize>2x2</glassSize></Item>
+				<Item><glassSize>3x3</glassSize></Item>
+			</glassSizes>
+		</Item>
+	</glassTypes>
+	<crackTypes>
+		<Item>Blunt</Item>
+		<Item>Pistol</Item>
+		<Item>Shotgun</Item>
+		<Item>Explosion</Item>
+	</crackTypes>
+	<shaderVars>
+		<textureVarDefaults>
+			<item>
+				<varName>DecalTex</varName>
+				<textureName>HiResDecal</textureName>
+			</item>
+			<item>
+				<varName>BrokenBumpTex</varName>
+				<textureName>DefNormBroken</textureName>
+			</item>
+		</textureVarDefaults>
+		<float4VarDefaults>
+			<item>
+				<varName>BrokenDiffuseColor</varName>
+				<value x="0.44" y="0.54" z="0.54" w="0.8"/>
+			</item>
+			<item>
+				<varName>BrokenSpecularColor</varName>
+				<value x="1.0" y="1.0" z="1.0" w="1.0"/>
+			</item>
+			<item>
+				<varName>BrokenSpecularFresnelColor</varName>
+				<value x="1.0" y="1.0" z="1.0" w="1.0"/>
+			</item>
+		</float4VarDefaults>
+		<float2VarDefaults>
+			<item>
+				<varName>CrackEdgeBumpTileScale</varName>
+				<value x="0.2" y="0.2"/>
+			</item>
+			<item>
+				<varName>CrackDecalBumpTileScale</varName>
+				<value x="2.5" y="2.5"/>
+			</item>
+		</float2VarDefaults>
+		<floatVarDefaults>
+			<item>
+				<varName>CrackEdgeBumpAmount</varName>
+				<value value="3.0"/>
+			</item>
+			<item>
+				<varName>CrackDecalBumpAmount</varName>
+				<value value="3.0"/>
+			</item>
+			<item>
+				<varName>CrackDecalBumpAlphaThreshold</varName>
+				<value value="0.5"/>
+			</item>
+		</floatVarDefaults>
+	</shaderVars>
+</rage__bgConfig>
